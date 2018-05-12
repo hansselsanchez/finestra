@@ -1,0 +1,654 @@
+/*
+
+	Finestra
+	Author: Prognosis.MX
+	Version: 1.0
+
+*/
+/* BASE - Base styles, variables, mixins, etc */
+
+
+h1, h2, h3, h4, h5 {
+  margin-top: 0;
+}
+
+.container-fluid{
+  padding-right: 0px; 
+  padding-left: 0px; 
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  line-height: 1.7em;
+  color: #616160;
+  font-weight: 300;
+}
+
+
+a {
+  color: #892110;
+}
+
+
+
+
+
+/*Menu Header*/
+.bg-light{
+   background: rgba(255, 255, 255, 0.0)!important;
+   
+}
+
+.logoHeader {
+  margin-top: -15px;
+}
+
+.logoHeaderMobile{
+  margin-top: -15px;
+  margin-left: -35px;
+}
+
+.navbar-light .navbar-nav {
+  color: #616160 !important;
+}
+.menuHeader ul, li {
+  list-style: none;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.activeMenu{
+  background-color: #781F0A;
+  color: #ffffff !important;
+
+}
+
+/* header */
+.headerHome{
+  width: 100%;
+  height: 550px;
+  background-image: url('../images/header_home1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #fff;
+  margin-top: -14px;
+}
+
+.headercomoHacemos{
+  width: 100%;
+  height: 500px;
+  background-image: url('../images/headercomolohacemos.jpg');
+  background-position: center center;
+  background-repeat:  no-repeat;
+  background-size:  cover;
+  margin-top: -14px;
+}
+
+.headerDTF{
+  width: 100%;
+  height: 500px;
+  background-image: url('../images/headerdtf.jpg');
+  background-position: center center;
+  background-repeat:  no-repeat;
+  background-size:  cover;
+  margin-top: -14px;
+}
+
+.headerContacto{
+  width: 100%;
+  height: 500px;
+  background-image: url('../images/headercontacto.jpg');
+  background-position: center center;
+  background-repeat:  no-repeat;
+  background-size:  cover;
+  margin-top: -14px;
+}
+
+.headerSolucionesPage{
+  width: 100%;
+  height: 500px;
+  background-image: url('../images/headersoluciones.png');
+  background-position: center center;
+  background-repeat:  no-repeat;
+  background-size:  cover;
+  margin-top: -14px;
+}
+
+.headerCharlas{
+  width: 100%;
+  height: 500px;
+  background-image: url('../images/headercharlas.jpg');
+  background-position: center center;
+  background-repeat:  no-repeat;
+  background-size:  cover;
+  margin-top: -14px;
+}
+
+.headerCertificaciones{
+  width: 100%;
+  height: 500px;
+  background-image: url('../images/headercertificaciones.jpg');
+  background-position: center center;
+  background-repeat:  no-repeat;
+  background-size:  cover;
+  margin-top: -14px;
+}
+
+
+.formularioHome{ 
+ background-color: rgba(255, 255, 255, 0.8);
+ width: 550px;
+ padding: 35px;
+ border-radius: 15px;
+}
+
+.formularioHome p{
+  color: #616160;
+  font-weight: 300;
+  font-size: 24px;
+  text-align: center;
+
+}
+
+.formularioHome b{
+  color: #791F0B;
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+
+}
+
+.btn-enviar-home{
+    border-width: 0px;
+    border-radius: 0px;
+    color: #FFFFFF;
+    background-color: #616160;
+    font-weight: 700;
+    text-align: center;
+    width: 130px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.btn-enviar-home:hover{
+  background-color: #791F0B;
+
+}
+
+
+
+
+
+/* RRSS */
+.holder{
+    width: 350px;
+    height:500px;
+    position:relative;
+}
+.frame{
+    width: 100%;
+    height:100%;
+}
+.bar{
+    position:absolute;
+    top:-35px;
+    left:0;
+    width:350px;
+    height:0px;
+}
+
+
+/*Panels*/
+
+.nav-pills{
+    background-color: #CACACA;
+    border: none;
+    color: #fff;
+    text-decoration: none;
+    font-size: xx-large;
+    margin: 20px 50px;
+    cursor: pointer;
+    border-radius: 0;
+}
+
+.nav-pills a{
+  font-size: 20px;
+  font-weight: 300;
+   
+}
+
+.nav-pills b{
+  font-size: 26px;
+  font-weight: 700;
+   
+}
+
+.nav-pills .nav-link {
+  padding: 40px;
+  color: #ffffff;
+  border-radius: 0;
+}
+
+
+
+.nav-link:hover{
+  color: #791F0B;
+}
+
+.nav-pills .nav-link.active{
+      background-color: #791F0B;
+}
+
+.panelTitle{
+  font-size: 20px;
+}
+
+.panelTitle b{
+  color: #791F0B;
+  font-weight: 700;
+}
+
+/*soluciones Header*/
+.headerSoluciones{
+  color: #ffffff;
+  font-size: 115px;
+  font-weight: 700;
+  text-align: center;
+  background-color: #616160;
+  padding-top: 10px;
+  padding-bottom: 32px;
+}
+
+.headerSolucionesMobile{
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  background-color: #616160;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.headerSoluciones img{
+  margin-top: -70px;
+}
+
+/*soluciones contenido*/
+.soluciones{
+  text-align: center;
+}
+
+.soluciones a{
+  color: #ffffff;
+}
+
+.btn-soluciones{
+  color: white;
+  background-color: #791F0B;
+  border-radius: 0;
+  padding: 15px 35px;
+}
+
+.solucionesContent b{
+  color: #791F0B;
+  font-weight: 700;
+}
+
+/*Panels Soluciones*/
+
+.nav-pills-soluciones{
+    background-color: #ffffff;
+    border: none;
+    color: #791F0B;
+    text-decoration: none;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 0;
+}
+
+.nav-pills-soluciones a{
+  font-size: 15px;
+  font-weight: 300;
+   
+}
+
+.nav-pills-soluciones b{
+  font-size: 15px;
+  font-weight: 700;
+   
+}
+
+.nav-pills-soluciones .nav-link {
+  padding: 40px;
+  color: #791F0B;
+  border-radius: 0;
+}
+
+
+
+.nav-link:hover{
+  color: #791F0B;
+}
+
+.nav-pills-soluciones .nav-link.active{
+      background-color: #616160;
+}
+
+.panelTitle{
+  font-size: 20px;
+  text-align: center;
+}
+
+.panelTitle b{
+  color: #791F0B;
+  font-weight: 700;
+}
+
+.panel-soluciones{
+  background-color: #616160;
+  padding: 10%;
+  margin-top: -22px;
+  color: #ffffff;
+  text-align: justify;
+}
+
+/*charlas financieras*/
+
+.charlasfinancieras{
+  background-color: #791F0B;
+  height: 350px;
+  text-align: justify;
+  padding: 50px;
+  color: #ffffff;
+  background-image: url('../images/backcharlas.jpg');
+
+}
+
+.charlasfinancieras a{
+  color: #ffffff;
+}
+
+.charlasfinancierasMobile{
+  background-color: #791F0B;
+  text-align: justify;
+  padding: 10%;
+  color: #ffffff;
+}
+
+.charlasfinancierasMobile a{
+  color: #ffffff;
+}
+
+.charlasText p{
+  text-align: justify;
+}
+
+.btn-enviar-charlas{
+    border-width: 0px;
+    border-radius: 0px;
+    color: #FFFFFF;
+    background-color: #616160;
+    font-weight: 700;
+    text-align: center;
+    width: 280px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.btn-enviar-charlas:hover{
+  background-color: #791F0B;
+
+}
+
+/*CONSULTAS*/
+/*consultas Header*/
+.headerConsultas{
+  color: #791F0B;
+  font-size: 115px;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 32px;
+  line-height: 0.8; 
+}
+
+.headerConsultasMobile{
+  color: #791F0B;
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.consultasTextos b{
+  color: #791F0B;
+  font-weight: 700;
+
+
+}
+
+/* certificaciones header*/
+
+.certificacionesHeader{
+  color: #A8A8A8;
+  font-size: 25px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.certificaionesContenido{
+  font-size: 14px;
+  text-align: justify;
+  color: #fff;
+
+}
+
+/*Panels Certificaciones*/
+
+.nav-pills-certificaciones{
+    background-color: #ffffff;
+    border: none;
+    color: #791F0B;
+    text-decoration: none;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 0;
+}
+
+.nav-pills-certificaciones a{
+  font-size: 15px;
+  font-weight: 300;
+   
+}
+
+.nav-pills-certificaciones b{
+  font-size: 15px;
+  font-weight: 700;
+   
+}
+
+.nav-pills-certificaciones .nav-link {
+  padding: 40px;
+  color: #666666;
+  border-radius: 0;
+}
+
+
+
+.nav-link:hover{
+  color: #791F0B;
+}
+
+.nav-pills-certificaciones .nav-link.active{
+      background-color: #B2B2B2;
+}
+
+
+.panel-certificaciones{
+  background-color: #B2B2B2;
+  padding: 10%;
+  margin-top: -22px;
+  color: #ffffff;
+  text-align: justify;
+}
+
+/* DTF */
+
+.dtfcontenido{
+  background-color: #ffffff;
+  color: #ffffff;
+  background-repeat: no-repeat;
+  background-image: url('../images/backdtf.jpg');
+  text-align: center;
+}
+
+.dtfcontenido a{
+  color: #ffffff;
+} 
+
+.dtfcontenidoMobile{
+  background-color: #791F0B;
+  text-align: justify;
+  padding: 10%;
+  color: #ffffff;
+}
+
+.dtfcontenidoMobile a{
+  color: #ffffff;
+}
+
+.textDTF p{
+  text-align: justify;
+}
+
+.btn-enviar-dtf{
+    border-width: 0px;
+    border-radius: 0px;
+    color: #FFFFFF;
+    background-color: #616160;
+    font-weight: 700;
+    text-align: center;
+    width: 280px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.btn-enviar-dtf:hover{
+  background-color: #791F0B;
+
+}
+
+
+/*contacto*/
+.text1Contacto{
+    font-size: 40px;
+    color: #616160;
+    font-weight: 400;
+    line-height: 48px;
+    text-align: center;
+}
+
+.text2Contacto{
+  font-size: 26px;
+  color: #791F0B;
+  font-weight: 700;
+  line-height: 31px;
+  text-align: center;
+}
+
+.direccionText{
+  font-size: 16;
+  color: #791F0B;
+  text-align: center;
+}
+
+.direccionText b{
+  font-size: 16;
+  color: #791F0B;
+  font-weight: 700;
+}
+
+/*footer*/
+
+.footer{
+  background-color: #616160;
+  color: white;
+  font-weight: 300;
+  padding-top: 40px;
+}
+
+.footer-rrss{
+  display: inline-flex;
+}
+
+.footer a{
+  color: #ffffff;
+}
+/*contenido paginas*/
+.contenidoTexto{
+  text-align: justify;
+  padding: 20px;
+}
+
+
+
+/*Xtras*/
+
+
+.card-flip {
+  -webkit-perspective: 1000px;
+          perspective: 1000px;
+}
+.card-flip:hover .flip, .card-flip.hover .flip {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+.card-flip,
+.front,
+.back {
+  width: 300px;
+  height: 250px;
+}
+
+.flip {
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  position: relative;
+}
+
+.front,
+.back {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.front {
+  z-index: 2;
+  -webkit-transform: rotateY(0deg);
+          transform: rotateY(0deg);
+}
+
+.back {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+.card-text{
+  padding: 20px;
+  text-align: justify;
+  background-color: #616160;
+  color: #ffffff;
+
+}
+
+.card {
+  border: 0px solid;
+}
